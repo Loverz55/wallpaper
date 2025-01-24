@@ -123,7 +123,7 @@ export function formatPast(param: string | Date, format: string = 'YYYY-mm-dd'):
  * @param timestamp 时间戳
  * @returns 返回日期字符串
  */
-export function convertTimestamp(timestamp) {
+export function convertTimestamp(timestamp: string | number | Date) {
     // 创建一个新的 Date 对象
     const date = new Date(timestamp);
 
