@@ -1,3 +1,3 @@
-# Vue 3 + TypeScript + Vite
+# wallpaper-website
 
-最新vue3，element-Plus，vue-router，pinia，pinia持久化，封装axios，很干净的模板，没有过度封装，自带工具类！
+接口使用的360壁纸接口
