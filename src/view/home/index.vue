@@ -112,8 +112,6 @@
 
 <script lang="ts">
 import { defineComponent, ref, onMounted, onUnmounted } from 'vue';
-import axios from 'axios';
-import { useRouter } from 'vue-router';
 import VueEasyLightbox from 'vue-easy-lightbox';
 import { ElMessage } from 'element-plus';
 
@@ -146,7 +144,6 @@ export default defineComponent({
     const isLoading = ref(false);
     const batchSize = 6;
     const observer = ref<IntersectionObserver | null>(null);
-    const router = useRouter();
 
     // 添加预览相关的状态
     const visible = ref(false);
